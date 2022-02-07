@@ -2,19 +2,19 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
+import NoteState from './context/notes/NoteState';
 
 function App() {
   return (
     <div className="App">
+      <NoteState>
       <Router>
       <Navbar/>
-
       <Switch>
 
           <Route exact path="/">
@@ -27,6 +27,7 @@ function App() {
 
       </Switch>
       </Router>
+      </NoteState>
     </div>
   );
 }
