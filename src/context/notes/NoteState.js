@@ -7,7 +7,7 @@ const NoteState = (props) => {
   
 const notesInitial = [
   {
-    "_id": "61f9845a9c19b4d5e453cabf",
+    "_id": "61f9845a9c19b4d5e453casdfabf",
     "title": "Gaaliyaan",
     "description": "Teri maa di phuddi phen de lunn",
     "tag": "personal",
@@ -15,7 +15,31 @@ const notesInitial = [
     "__v": 0
   },
   {
-    "_id": "61f98c039c19b4d5e453cac1",
+    "_id": "61f9845a9c19bafd4d5e453cagf",
+    "title": "Gaaliyaan",
+    "description": "Teri maa di phuddi phen de lunn",
+    "tag": "personal",
+    "date": "2022-02-01T19:04:58.202Z",
+    "__v": 0
+  },
+  {
+    "_id": "61f9845a9cu9ba4d5e453cagf",
+    "title": "Gaaliyaan",
+    "description": "Teri maa di phuddi phen de lunn",
+    "tag": "personal",
+    "date": "2022-02-01T19:04:58.202Z",
+    "__v": 0
+  },
+  {
+    "_id": "61f7845a9cugr9b4d5e453cagf",
+    "title": "Gaaliyaan",
+    "description": "Teri maa di evam phen di phuddi phen de lunn",
+    "tag": "personal",
+    "date": "2022-02-01T19:04:58.202Z",
+    "__v": 0
+  },
+  {
+    "_id": "61f98c039c19b4erd5e453cac1",
     "title": "Gaaliyaan",
     "description": "Teri maa di phuddi phen de lunn",
     "tag": "personal",

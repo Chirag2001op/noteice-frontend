@@ -5,11 +5,16 @@ const NoteItem = (props) => {
 
   return (
     <div className = "col-md-3">
-      <div class="card my-3" >
-        <div class="card-body">
-          <h5 class="card-title">{notes.title} </h5>
-          <p class="card-text">{notes.description} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, nulla alias corrupti fuga perferendis, sapiente quisquam nam beatae, laudantium corporis saepe ratione quam quibusdam et iure ad totam delectus nesciunt iusto eveniet iste provident rem animi.</p>
+      <div className="card my-3" >
+        <div className="card-body">
+          <h5 className="card-title">{notes.title} </h5>
+          <p className="card-text">{notes.description}</p>
         </div>
+        <div className="container col d-flex align-items-center">
+        <i className="far fa-trash-alt mx-2 my-2"></i>
+        <i className="far fa-edit mx-2 my-2"></i>
+        </div>
+        
       </div>
     </div>
   );
