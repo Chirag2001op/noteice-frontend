@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -13,6 +14,7 @@ function App() {
           <Navbar />
           <Alert message = "This is a sexy application"/>
           <Switch>
+          <React.Fragment>
             <div className="container">
               <Route exact path="/">
                 <Home />
@@ -22,6 +24,7 @@ function App() {
                 <About />
               </Route>
             </div>
+          </React.Fragment>
           </Switch>
         </Router>
       </NoteState>

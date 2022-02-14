@@ -7,7 +7,7 @@ const NoteState = (props) => {
   
 const notesInitial = [
   {
-    "_id": "61f9845a9c19b4d5e453casdfabf",
+    "_id": "61f9845a9c1gffg9b4d5e453casdfabf",
     "title": "Gaaliyaan",
     "description": "Teri maa di phuddi phen de lunn",
     "tag": "personal",
@@ -15,7 +15,7 @@ const notesInitial = [
     "__v": 0
   },
   {
-    "_id": "61f9845a9c19bafd4d5e453cagf",
+    "_id": "61f9845a9c19bsweafd4d5e453cagf",
     "title": "Gaaliyaan",
     "description": "Teri maa di phuddi phen de lunn",
     "tag": "personal",
@@ -29,9 +29,9 @@ const [notes, setNotes] = useState(notesInitial);
 //Add notes
 const addNote = (title, description, tag)=>{
 
-  console.log("adding new note")
+  // console.log("adding new note")
     const note = {
-      "_id": "61f9845a9c19b4d5e453casdfabf",
+      "_id": "61f9845a9cwer19b4d5e453casdfabf",
       "title": title,
       "description":description,
       "tag": tag,
@@ -43,8 +43,10 @@ const addNote = (title, description, tag)=>{
 }
 
 //Delete note
-const deleteNote = ()=>{
-
+const deleteNote = (id)=>{
+    console.log("Deleting the node" + id)
+    const newNotes = notes.filter((notes)=>{return notes._id!==id})
+    setNotes(newNotes)
 }
 
 //Edit note
